@@ -1,0 +1,50 @@
+/* Custom smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.bg-gradient-radial {
+    background-image: radial-gradient(var(--tw-gradient-stops));
+}
+
+/* Premium smooth transitions for all elements */
+* {
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+
+/* Fix for Safari backdrop-filter blur */
+.backdrop-blur-lg {
+    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px);
+}
+
+/* Custom button active state */
+button:active,
+a:active {
+    transform: scale(0.98);
+}
+
+/* Hero image floating animation */
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.hero-image-animate {
+    animation: float 6s ease-in-out infinite;
+}
