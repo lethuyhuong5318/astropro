@@ -15,22 +15,24 @@ if (menuToggle) {
 // Sticky Navbar
 const navbar = document.getElementById("navbar");
 window.addEventListener("scroll", () => {
-  if (window.scrollY > 10) {
+  if (window.scrollY > 20) {
     navbar.classList.add(
-      "bg-white/70",
+      "bg-white/80",
       "backdrop-blur-xl",
       "border-b",
-      "border-gray-200",
+      "border-slate-200/60",
       "py-3",
+      "shadow-sm",
     );
     navbar.classList.remove("py-5", "border-transparent");
   } else {
     navbar.classList.remove(
-      "bg-white/70",
+      "bg-white/80",
       "backdrop-blur-xl",
       "border-b",
-      "border-gray-200",
+      "border-slate-200/60",
       "py-3",
+      "shadow-sm",
     );
     navbar.classList.add("py-5", "border-transparent");
   }
