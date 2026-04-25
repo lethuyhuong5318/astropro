@@ -113,15 +113,15 @@
     </header>
 
     <!-- Hero Section -->
-    <main class="overflow-x-clip">
+    <main class="overflow-hidden">
         <div class="max-w-screen-xl mx-auto px-5">
             <section class="grid lg:grid-cols-5 place-items-center relative py-12 lg:py-20">
                 <!-- Background Gradients -->
                 <div
-                    class="absolute w-96 h-96 blur-3xl -z-10 bg-gradient-radial from-indigo-100 right-0 top-0 opacity-50">
+                    class="hidden sm:block absolute w-96 h-96 blur-3xl -z-10 bg-gradient-radial from-indigo-100 right-0 top-0 opacity-50">
                 </div>
                 <div
-                    class="absolute w-96 h-96 blur-3xl -z-10 bg-gradient-radial from-purple-100 right-40 top-10 opacity-50">
+                    class="hidden sm:block absolute w-96 h-96 blur-3xl -z-10 bg-gradient-radial from-purple-100 right-40 top-10 opacity-50">
                 </div>
 
                 <!-- Hero Content -->
@@ -156,7 +156,7 @@
             </section>
 
             <!-- Trusted By Section -->
-            <div class="mt-24 pb-24">
+            <div class="mt-16 pb-16">
                 <h2 class="text-center text-slate-500 font-medium">
                     Trusted by popular startups you know
                 </h2>
@@ -172,6 +172,532 @@
                         loading="lazy">
                 </div>
             </div>
+
+            <!-- Features Section 1 -->
+            <section class="mt-16 lg:mt-24 mb-16">
+                <div class="text-center">
+                    <span
+                        class="bg-indigo-50 text-indigo-600 text-[11px] font-bold uppercase tracking-widest px-3 py-1 rounded-full border border-indigo-100">
+                        TWO-COL FEATURES
+                    </span>
+                    <h2 class="text-4xl lg:text-5xl font-extrabold text-black mt-4 tracking-tight">
+                        Supercharge Your Workflows
+                    </h2>
+                    <p class="text-lg text-slate-500 mt-5 max-w-2xl mx-auto leading-relaxed px-5">
+                        Unlock your team's true potential with our state-of-the-art SaaS platform. From intelligent task
+                        management to real-time collaboration and top-notch data security, we have everything you need to
+                        streamline your workflows and achieve high productivity.
+                    </p>
+                </div>
+
+                <div class="grid lg:grid-cols-2 gap-10 lg:gap-24 mt-16 md:mt-24 items-center px-5">
+                    <!-- Left: Dashboard Image -->
+                    <div class="relative order-2 lg:order-1">
+                        <img src="./img/dashboard-home2.png" alt="Dashboard Mockup"
+                            class="w-full h-auto rounded-xl shadow-2xl ring-1 ring-gray-200" loading="lazy">
+                    </div>
+
+                    <!-- Right: Content -->
+                    <div class="order-1 lg:order-2">
+                        <div class="flex">
+                            <span
+                                class="bg-purple-50 text-purple-600 text-[11px] font-bold uppercase tracking-widest px-3 py-1 rounded-full border border-purple-100">
+                                Simplified Workflows
+                            </span>
+                        </div>
+                        <h3 class="text-3xl font-extrabold text-black mt-4 leading-tight">
+                            Experience the Ultimate Boost in Productivity with Our Intuitive Platform
+                        </h3>
+                        <p class="text-lg text-slate-500 mt-5 leading-relaxed">
+                            Streamline your tasks and collaborate seamlessly with our cutting-edge SaaS startup
+                            platform. Unlock the potential of your team and take productivity to new heights.
+                        </p>
+
+                        <ul class="mt-8 space-y-4">
+                            <li class="flex items-center gap-3 text-slate-600 font-medium">
+                                <div class="bg-black rounded-full p-1 leading-none shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-white"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                </div>
+                                <span>Intelligent Task Management</span>
+                            </li>
+                            <li class="flex items-center gap-3 text-slate-600 font-medium">
+                                <div class="bg-black rounded-full p-1 leading-none shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-white"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                </div>
+                                <span>Real-time Collaboration</span>
+                            </li>
+                            <li class="flex items-center gap-3 text-slate-600 font-medium">
+                                <div class="bg-black rounded-full p-1 leading-none shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-white"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                </div>
+                                <span>Data Security & Privacy</span>
+                            </li>
+                        </ul>
+
+                        <div class="mt-10 flex flex-wrap items-center gap-8">
+                            <a href="#"
+                                class="bg-indigo-600 text-white hover:bg-indigo-800 px-7 py-3 rounded-full text-center font-medium transition shadow-lg shadow-indigo-200 flex items-center group gap-1">
+                                <span>Start 14-day trial</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                    class="w-4 h-4 group-hover:translate-x-1 transition-transform">
+                                    <path fill-rule="evenodd"
+                                        d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </a>
+                            <a href="#" class="text-slate-500 hover:text-indigo-600 font-medium transition">
+                                Contact Sales
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- AI Insights Section -->
+            <section class="mt-16 lg:mt-24 mb-16">
+                <div class="grid lg:grid-cols-2 gap-10 lg:gap-24 items-center px-5">
+                    <!-- Left: Content -->
+                    <div>
+                        <div class="flex">
+                            <span
+                                class="bg-indigo-50 text-indigo-600 text-[11px] font-bold uppercase tracking-widest px-3 py-1 rounded-full border border-indigo-100">
+                                AI-Powered Insights
+                            </span>
+                        </div>
+                        <h3 class="text-3xl font-extrabold text-black mt-4 leading-tight">
+                            Supercharge Your Marketing Strategy with Advanced Analytics
+                        </h3>
+                        <p class="text-lg text-slate-500 mt-5 leading-relaxed">
+                            Harness the potential of AI-driven marketing analytics to optimize your campaigns,
+                            understand your audience better, and achieve unprecedented growth.
+                        </p>
+
+                        <ul class="mt-8 space-y-4">
+                            <li class="flex items-center gap-3 text-slate-600 font-medium">
+                                <div class="bg-black rounded-full p-1 leading-none shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-white"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                </div>
+                                <span>Smart Audience Segmentation</span>
+                            </li>
+                            <li class="flex items-center gap-3 text-slate-600 font-medium">
+                                <div class="bg-black rounded-full p-1 leading-none shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-white"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                </div>
+                                <span>Predictive Campaign Performance</span>
+                            </li>
+                            <li class="flex items-center gap-3 text-slate-600 font-medium">
+                                <div class="bg-black rounded-full p-1 leading-none shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-white"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                </div>
+                                <span>Real-time Data Visualization</span>
+                            </li>
+                        </ul>
+
+                        <div class="mt-10 flex flex-wrap items-center gap-8">
+                            <a href="#"
+                                class="bg-indigo-600 text-white hover:bg-indigo-800 px-7 py-3 rounded-full text-center font-medium transition shadow-lg shadow-indigo-200 flex items-center group gap-1">
+                                <span>Start 14-day trial</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                    class="w-4 h-4 group-hover:translate-x-1 transition-transform">
+                                    <path fill-rule="evenodd"
+                                        d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </a>
+                            <a href="#" class="text-slate-500 hover:text-indigo-600 font-medium transition">
+                                Contact Sales
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Right: Dashboard Image -->
+                    <div class="relative">
+                        <img src="./img/dashboard-home3.png" alt="Analytics Mockup"
+                            class="w-full h-auto rounded-xl shadow-2xl ring-1 ring-gray-200" loading="lazy">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Testimonials Section -->
+            <section class="mt-16 lg:mt-24 mb-16 overflow-hidden">
+                <div class="text-center px-5">
+                    <h2 class="text-4xl lg:text-5xl font-extrabold text-black tracking-tight">
+                        Client <span class="text-indigo-600">Testimonials</span>
+                    </h2>
+                    <p class="text-lg text-slate-500 mt-4 font-medium uppercase tracking-widest text-sm">
+                        Astroship is trusted by the world's leading companies and brands.
+                    </p>
+                </div>
+
+                <!-- Marquee -->
+                <div class="mt-16 relative flex overflow-x-hidden">
+                    <div class="py-12 animate-marquee whitespace-nowrap flex gap-10">
+                        <!-- Card 1 -->
+                        <div
+                            class="w-[350px] sm:w-[450px] flex-shrink-0 bg-gray-50/50 border border-gray-100 p-8 rounded-2xl flex flex-col justify-between">
+                            <p class="text-gray-600 leading-relaxed italic whitespace-normal">
+                                "Astroship has revolutionized the way we handle customer support. The ticketing system
+                                and knowledge base have significantly reduced response times, leading to happier customers.
+                                Thanks to this incredible tool."
+                            </p>
+                            <div class="flex items-center gap-4 mt-8">
+                                <img src="./img/photo-1544725176-7c40e5a71c5e_1YAmsh.png" alt="Mike Johnson"
+                                    class="w-12 h-12 rounded-full object-cover">
+                                <div>
+                                    <h4 class="font-bold text-black">Mike Johnson</h4>
+                                    <p class="text-xs text-slate-500">CTO at CloudNine</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 2 -->
+                        <div
+                            class="w-[350px] sm:w-[450px] flex-shrink-0 bg-gray-50/50 border border-gray-100 p-8 rounded-2xl flex flex-col justify-between">
+                            <p class="text-gray-600 leading-relaxed italic whitespace-normal">
+                                "Astroship has simplified our employee management processes. From onboarding to
+                                performance evaluations, everything is now seamlessly organized in one place. It's made
+                                my job much more manageable and enjoyable!"
+                            </p>
+                            <div class="flex items-center gap-4 mt-8">
+                                <img src="./img/photo-1586297135537-94bc9ba060aa_Z1a2h3D.png" alt="Emily Brown"
+                                    class="w-12 h-12 rounded-full object-cover">
+                                <div>
+                                    <h4 class="font-bold text-black">Emily Brown</h4>
+                                    <p class="text-xs text-slate-500">HR Manager at ConnectCo</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 3 -->
+                        <div
+                            class="w-[350px] sm:w-[450px] flex-shrink-0 bg-gray-50/50 border border-gray-100 p-8 rounded-2xl flex flex-col justify-between">
+                            <p class="text-gray-600 leading-relaxed italic whitespace-normal">
+                                "Our sales team swears by Astroship's CRM capabilities. The lead tracking and pipeline
+                                management tools have resulted in a significant boost in sales. It's a versatile
+                                platform that has truly optimized our sales processes."
+                            </p>
+                            <div class="flex items-center gap-4 mt-8">
+                                <img src="./img/photo-1601455763557-db1bea8a9a5a_Z2pbVqe.png" alt="David Lee"
+                                    class="w-12 h-12 rounded-full object-cover">
+                                <div>
+                                    <h4 class="font-bold text-black">David Lee</h4>
+                                    <p class="text-xs text-slate-500">Sales Director at Linkify</p>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- Card 4 -->
+                         <div
+                            class="w-[350px] sm:w-[450px] flex-shrink-0 bg-gray-50/50 border border-gray-100 p-8 rounded-2xl flex flex-col justify-between">
+                            <p class="text-gray-600 leading-relaxed italic whitespace-normal">
+                                "Astroship has been a game changer for our finance department. The automated accounting features and seamless invoicing have saved us countless hours of manual data entry and financial comparisons."
+                            </p>
+                            <div class="flex items-center gap-4 mt-8">
+                                <img src="./img/photo-1639149888905-fb39731f2e6c_Z1IObYK.png" alt="Sarah Martin"
+                                    class="w-12 h-12 rounded-full object-cover">
+                                <div>
+                                    <h4 class="font-bold text-black">Sarah Martin</h4>
+                                    <p class="text-xs text-slate-500">Finance Controller at Flow</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Duplicate for infinite scroll -->
+                    <div class="py-12 animate-marquee whitespace-nowrap flex gap-10" aria-hidden="true">
+                         <!-- Card 1 -->
+                        <div
+                            class="w-[350px] sm:w-[450px] flex-shrink-0 bg-gray-50/50 border border-gray-100 p-8 rounded-2xl flex flex-col justify-between">
+                            <p class="text-gray-600 leading-relaxed italic whitespace-normal">
+                                "Astroship has revolutionized the way we handle customer support. The ticketing system
+                                and knowledge base have significantly reduced response times, leading to happier customers.
+                                Thanks to this incredible tool."
+                            </p>
+                            <div class="flex items-center gap-4 mt-8">
+                                <img src="./img/photo-1544725176-7c40e5a71c5e_1YAmsh.png" alt="Mike Johnson"
+                                    class="w-12 h-12 rounded-full object-cover">
+                                <div>
+                                    <h4 class="font-bold text-black">Mike Johnson</h4>
+                                    <p class="text-xs text-slate-500">CTO at CloudNine</p>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- Card 2 -->
+                         <div
+                            class="w-[350px] sm:w-[450px] flex-shrink-0 bg-gray-50/50 border border-gray-100 p-8 rounded-2xl flex flex-col justify-between">
+                            <p class="text-gray-600 leading-relaxed italic whitespace-normal">
+                                "Astroship has simplified our employee management processes. From onboarding to
+                                performance evaluations, everything is now seamlessly organized in one place. It's made
+                                my job much more manageable and enjoyable!"
+                            </p>
+                            <div class="flex items-center gap-4 mt-8">
+                                <img src="./img/photo-1586297135537-94bc9ba060aa_Z1a2h3D.png" alt="Emily Brown"
+                                    class="w-12 h-12 rounded-full object-cover">
+                                <div>
+                                    <h4 class="font-bold text-black">Emily Brown</h4>
+                                    <p class="text-xs text-slate-500">HR Manager at ConnectCo</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 3 -->
+                        <div
+                            class="w-[350px] sm:w-[450px] flex-shrink-0 bg-gray-50/50 border border-gray-100 p-8 rounded-2xl flex flex-col justify-between">
+                            <p class="text-gray-600 leading-relaxed italic whitespace-normal">
+                                "Our sales team swears by Astroship's CRM capabilities. The lead tracking and pipeline
+                                management tools have resulted in a significant boost in sales. It's a versatile
+                                platform that has truly optimized our sales processes."
+                            </p>
+                            <div class="flex items-center gap-4 mt-8">
+                                <img src="./img/photo-1601455763557-db1bea8a9a5a_Z2pbVqe.png" alt="David Lee"
+                                    class="w-12 h-12 rounded-full object-cover">
+                                <div>
+                                    <h4 class="font-bold text-black">David Lee</h4>
+                                    <p class="text-xs text-slate-500">Sales Director at Linkify</p>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- Card 4 -->
+                         <div
+                            class="w-[350px] sm:w-[450px] flex-shrink-0 bg-gray-50/50 border border-gray-100 p-8 rounded-2xl flex flex-col justify-between">
+                            <p class="text-gray-600 leading-relaxed italic whitespace-normal">
+                                "Astroship has been a game changer for our finance department. The automated accounting features and seamless invoicing have saved us countless hours of manual data entry and financial comparisons."
+                            </p>
+                            <div class="flex items-center gap-4 mt-8">
+                                <img src="./img/photo-1639149888905-fb39731f2e6c_Z1IObYK.png" alt="Sarah Martin"
+                                    class="w-12 h-12 rounded-full object-cover">
+                                <div>
+                                    <h4 class="font-bold text-black">Sarah Martin</h4>
+                                    <p class="text-xs text-slate-500">Finance Controller at Flow</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Everything Section -->
+            <section class="mt-16 lg:mt-24 mb-24 px-5">
+                <div class="text-center">
+                    <h2 class="text-4xl lg:text-5xl font-extrabold text-black tracking-tight">
+                        Everything you need to <span class="text-indigo-600">start a website</span>
+                    </h2>
+                    <p class="text-lg text-slate-500 mt-4 max-w-2xl mx-auto leading-relaxed">
+                        Astro comes batteries included. It takes the best parts of state-of-the-art tools and adds its
+                        own innovations.
+                    </p>
+                </div>
+
+                <div class="max-w-7xl mx-auto mt-16">
+                    <!-- Row 1: 2 large cards -->
+                    <div class="grid md:grid-cols-2 gap-8 lg:gap-10">
+                        <!-- Responsive Template -->
+                        <div class="bg-gray-50/50 border border-gray-100 p-8 lg:p-10 rounded-3xl group flex flex-col">
+                            <div class="overflow-hidden rounded-2xl shadow-xl ring-1 ring-gray-200 flex-grow">
+                                <img src="./img/dashboard-home.png" alt="Responsive Template"
+                                    class="w-full h-auto group-hover:scale-105 transition-transform duration-500">
+                            </div>
+                            <div class="mt-8 flex flex-col items-start gap-4">
+                                <span
+                                    class="bg-indigo-50 text-indigo-600 text-[10px] font-bold uppercase tracking-widest px-2 py-0.5 rounded-full border border-indigo-100">
+                                    Astroship
+                                </span>
+                                <h4 class="text-2xl font-bold text-black">Responsive Template</h4>
+                                <p class="text-slate-500 leading-relaxed">Astroship is a creative and modern mobile
+                                    responsive website template that helps you create any kind of marketing websites or
+                                    landing pages.</p>
+                            </div>
+                        </div>
+                        <!-- Next Level Template -->
+                        <div class="bg-gray-50/50 border border-gray-100 p-8 lg:p-10 rounded-3xl group flex flex-col">
+                            <div class="overflow-hidden rounded-2xl shadow-xl ring-1 ring-gray-200 flex-grow">
+                                <img src="./img/dashboard-home2.png" alt="Next Level Template"
+                                    class="w-full h-auto group-hover:scale-105 transition-transform duration-500">
+                            </div>
+                            <div class="mt-8 flex flex-col items-start gap-4">
+                                <span
+                                    class="bg-blue-50 text-blue-600 text-[10px] font-bold uppercase tracking-widest px-2 py-0.5 rounded-full border border-blue-100">
+                                    Creative
+                                </span>
+                                <h4 class="text-2xl font-bold text-black">Next Level Template</h4>
+                                <p class="text-slate-500 leading-relaxed">Astroship is a new kind of website template that
+                                    integrates your favorite tools and workflows.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Row 2: 3 small cards -->
+                    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10 mt-8 lg:mt-10">
+                        <!-- Modern Design -->
+                        <div class="bg-gray-50/50 border border-gray-100 p-8 rounded-3xl group flex flex-col">
+                            <div class="overflow-hidden rounded-2xl shadow-xl ring-1 ring-gray-200 flex-grow bg-white">
+                                <img src="./img/mordern design.png" alt="Modern Design"
+                                    class="w-full h-auto group-hover:scale-105 transition-transform duration-500">
+                            </div>
+                            <div class="mt-8 flex flex-col items-start gap-4">
+                                <span
+                                    class="bg-purple-50 text-purple-600 text-[10px] font-bold uppercase tracking-widest px-2 py-0.5 rounded-full border border-purple-100">
+                                    Template
+                                </span>
+                                <h4 class="text-xl font-bold text-black">Modern Design</h4>
+                                <p class="text-slate-500 leading-relaxed text-sm">Feeling old? Try this template and be a part of the modern design.</p>
+                            </div>
+                        </div>
+                        <!-- Highlight Features -->
+                        <div class="bg-gray-50/50 border border-gray-100 p-8 rounded-3xl group flex flex-col">
+                            <div class="overflow-hidden rounded-2xl shadow-xl ring-1 ring-gray-200 flex-grow bg-white">
+                                <img src="./img/dashboard-home3.png" alt="Highlight Features"
+                                    class="w-full h-auto group-hover:scale-105 transition-transform duration-500">
+                            </div>
+                            <div class="mt-8 flex flex-col items-start gap-4">
+                                <span
+                                    class="bg-rose-50 text-rose-600 text-[10px] font-bold uppercase tracking-widest px-2 py-0.5 rounded-full border border-rose-100">
+                                    Product
+                                </span>
+                                <h4 class="text-xl font-bold text-black">Highlight Features</h4>
+                                <p class="text-slate-500 leading-relaxed text-sm">You can highlight your features in a trendy grid like this one.</p>
+                            </div>
+                        </div>
+                        <!-- 100+ Integrations -->
+                        <div class="bg-gray-50/50 border border-gray-100 p-8 rounded-3xl group flex flex-col">
+                            <div class="flex-grow flex items-center justify-center p-4 bg-white rounded-2xl shadow-xl ring-1 ring-gray-200 overflow-hidden">
+                                <img src="./img/integrations.eF8c4xAE.svg" alt="Integrations"
+                                    class="w-full h-auto opacity-80 group-hover:scale-110 transition-transform duration-500">
+                            </div>
+                            <div class="mt-8 flex flex-col items-start gap-4">
+                                <span
+                                    class="bg-emerald-50 text-emerald-600 text-[10px] font-bold uppercase tracking-widest px-2 py-0.5 rounded-full border border-emerald-100">
+                                    Webhooks
+                                </span>
+                                <h4 class="text-xl font-bold text-black">100+ Integrations</h4>
+                                <p class="text-slate-500 leading-relaxed text-sm">Astroship can be integrated with hundreds of tools using Zapier.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- We've got you covered -->
+            <section class="mt-16 lg:mt-24 mb-32 px-5">
+                <div class="text-center">
+                    <span
+                        class="bg-purple-50 text-purple-600 text-[11px] font-bold uppercase tracking-widest px-3 py-1 rounded-full border border-purple-100">
+                        MORE FEATURES
+                    </span>
+                    <h2 class="text-4xl lg:text-5xl font-extrabold text-black tracking-tight mt-4">
+                        We've got <span class="text-indigo-600">you covered</span>
+                    </h2>
+                    <p class="text-lg text-slate-500 mt-4 max-w-2xl mx-auto leading-relaxed">
+                        Our template covers all things SAAS. If you don't find what you're looking for, contact us and
+                        we'll either help you or steer you in the right direction.
+                    </p>
+                </div>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-12 lg:gap-16 mt-20 max-w-6xl mx-auto">
+                    <!-- Feature 1 -->
+                    <div class="flex flex-col items-start text-left">
+                        <div class="bg-indigo-50 p-3 rounded-lg text-indigo-600 mb-6 shadow-sm">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+                            </svg>
+                        </div>
+                        <h4 class="text-xl font-bold text-black mb-3 tracking-tight">Bring Your Own Framework</h4>
+                        <p class="text-slate-500 leading-relaxed font-medium">Build your site using React, Svelte, Vue,
+                            Preact, web components, or just plain ol' HTML + JavaScript.</p>
+                    </div>
+                    <!-- Feature 2 -->
+                    <div class="flex flex-col items-start text-left">
+                        <div class="bg-indigo-50 p-3 rounded-lg text-indigo-600 mb-6 shadow-sm">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M16.5 18.75h-9m9 0a3 3 0 0 1 3 3h-15a3 3 0 0 1 3-3m9 0v-3.375c0-.621-.503-1.125-1.125-1.125h-.871M7.5 18.75v-3.375c0-.621.504-1.125 1.125-1.125h.872m5.007 0H9.497m5.007 0a7.454 7.454 0 0 1-.982-3.172M9.497 10.5c0-1.104.914-2.025 2.003-2.025s2.003.921 2.003 2.025m-4.006 0c0 1.104.914 2.025 2.003 2.025s2.003-.921 2.003-2.025M12 4.5V2.25m0 16.5V21" />
+                            </svg>
+                        </div>
+                        <h4 class="text-xl font-bold text-black mb-3 tracking-tight">100% Static HTML, No JS</h4>
+                        <p class="text-slate-500 leading-relaxed font-medium">Astro renders your entire page to static
+                            HTML, removing all JavaScript from your final build by default.</p>
+                    </div>
+                    <!-- Feature 3 -->
+                    <div class="flex flex-col items-start text-left">
+                        <div class="bg-indigo-50 p-3 rounded-lg text-indigo-600 mb-6 shadow-sm">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="m21 7.5-9-5.25L3 7.5m18 0-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9" />
+                            </svg>
+                        </div>
+                        <h4 class="text-xl font-bold text-black mb-3 tracking-tight">On-Demand Components</h4>
+                        <p class="text-slate-500 leading-relaxed font-medium">Need some JS? Astro can automatically
+                            hydrate interactive components when they become visible on the page.</p>
+                    </div>
+                    <!-- Feature 4 -->
+                    <div class="flex flex-col items-start text-left">
+                        <div class="bg-indigo-50 p-3 rounded-lg text-indigo-600 mb-6 shadow-sm">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M21 7.5l-9-5.25L3 7.5m18 0-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9" />
+                            </svg>
+                        </div>
+                        <h4 class="text-xl font-bold text-black mb-3 tracking-tight">Broad Integration</h4>
+                        <p class="text-slate-500 leading-relaxed font-medium">Astro supports TypeScript, Scoped CSS, CSS
+                            Modules, Sass, Tailwind, Markdown, MDX, and any other npm packages.</p>
+                    </div>
+                    <!-- Feature 5 -->
+                    <div class="flex flex-col items-start text-left">
+                        <div class="bg-indigo-50 p-3 rounded-lg text-indigo-600 mb-6 shadow-sm">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607ZM10.5 7.5v6m3-3h-6" />
+                            </svg>
+                        </div>
+                        <h4 class="text-xl font-bold text-black mb-3 tracking-tight">SEO Enabled</h4>
+                        <p class="text-slate-500 leading-relaxed font-medium">Automatic sitemaps, RSS feeds, pagination
+                            and collections take the pain out of SEO and syndication. It just works!</p>
+                    </div>
+                    <!-- Feature 6 -->
+                    <div class="flex flex-col items-start text-left">
+                        <div class="bg-indigo-50 p-3 rounded-lg text-indigo-600 mb-6 shadow-sm">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
+                            </svg>
+                        </div>
+                        <h4 class="text-xl font-bold text-black mb-3 tracking-tight">Community</h4>
+                        <p class="text-slate-500 leading-relaxed font-medium">Astro is an open source project powered by
+                            hundreds of contributors making thousands of individual contributions.</p>
+                    </div>
+                </div>
+            </section>
         </div>
     </main>
 

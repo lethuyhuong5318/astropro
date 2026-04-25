@@ -15,10 +15,10 @@ if (menuToggle) {
 // Sticky Navbar
 const navbar = document.getElementById("navbar");
 window.addEventListener("scroll", () => {
-  if (window.scrollY > 50) {
+  if (window.scrollY > 10) {
     navbar.classList.add(
-      "bg-white/80",
-      "backdrop-blur-lg",
+      "bg-white/70",
+      "backdrop-blur-xl",
       "border-b",
       "border-gray-200",
       "py-3",
@@ -26,8 +26,8 @@ window.addEventListener("scroll", () => {
     navbar.classList.remove("py-5", "border-transparent");
   } else {
     navbar.classList.remove(
-      "bg-white/80",
-      "backdrop-blur-lg",
+      "bg-white/70",
+      "backdrop-blur-xl",
       "border-b",
       "border-gray-200",
       "py-3",
